@@ -1,0 +1,39 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-size: 22px;
+}
+
+input{
+    font-size: 15px;
+    padding: 5px;
+    border-radius: 5px;
+}
+ 
+
+.container{
+   width:  50%;
+   height: 50vh;
+   border: 2px solid black;
+   padding: 55px;
+   margin: 111px auto;
+   background-color: lightblue;
+   
+}
+
+
+#button{
+    width: 40%;
+    border-radius: 5px;
+}
+
+.width{
+    width: 40%;
+}
+
+
+.margin{
+    margin-left: 44px;
+}

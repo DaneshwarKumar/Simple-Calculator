@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Style.css">
+    <script src="Script.js"></script>
+</head>
+<body>
+  
+    <div class="container">
+
+    <!-- input box for first Operand -->
+    <input type="number" name="first" id="first" step="any" class="width" placeholder="Enter The First Number..."> 
+
+    <!-- list of Operators  -->
+    <select name="operator" id="operator">
+        <option value="+">+</option>
+        <option value="-">-</option>
+        <option value="X">X</option>
+        <option value="/">/</option>
+        <option value="%">%</option>
+    </select>
+
+    <!-- input box for second Operands  -->
+    <input type="number" name="second" id="second" step="any" class="width" placeholder="Enter The Second Number...">
+
+    <br>
+    <br>
+
+    <!-- calling the cal function for calculation  -->
+    <button onclick="cal()" class="width">Calculate</button>
+    <input type="text"  id="res" readonly=""  class="width margin" >
+
+    </div>
+    
+</body>
+</html>
